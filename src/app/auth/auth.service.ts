@@ -101,6 +101,7 @@ export class AuthService {
         errorMessage = 'This email already exists';
         break;
       case 'INVALID_CREDENTIALS':
+      case 'INVALID_PASSWORD':
       case 'EMAIL_NOT_FOUND':
         errorMessage = 'Entered credentials are invalid.';
         break;
